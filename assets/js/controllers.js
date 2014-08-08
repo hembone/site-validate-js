@@ -8,10 +8,10 @@ killerApp.controller('HomeController', function($rootScope, $scope, $http) {
 	];
 });
 
-killerApp.controller('LoginController', function($rootScope, $scope, $http) {
-	$rootScope.title = 'Login';
+killerApp.controller('DocsController', function($rootScope, $scope, $http) {
+	$rootScope.title = 'Docs';
 });
 
-killerApp.controller('SignupController', function($rootScope, $scope, $http) {
-	$rootScope.title = 'Signup';
+killerApp.controller('DemoController', function($rootScope, $scope, $http) {
+	$rootScope.title = 'Demo';
 });

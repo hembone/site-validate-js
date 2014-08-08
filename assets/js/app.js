@@ -13,14 +13,14 @@ killerApp.config(function($locationProvider, $routeProvider) {
 		,controller: 'HomeController'
 	})
 	
-	.when('/login', {
-		templateUrl: './partials/login.html'
-		,controller: 'LoginController'
+	.when('/docs', {
+		templateUrl: './partials/docs.html'
+		,controller: 'DocsController'
 	})
 	
-	.when('/signup', {
-		templateUrl: './partials/signup.html'
-		,controller: 'SignupController'
+	.when('/demo', {
+		templateUrl: './partials/demo.html'
+		,controller: 'DemoController'
 	})
 	
 	.otherwise({redirectTo: '/'});

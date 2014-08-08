@@ -9,15 +9,21 @@
 
 <link rel="stylesheet" href="./assets/css/normalize.css"/>
 <link rel="stylesheet" href="./assets/css/foundation.min.css"/>
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans" type="text/css"/> <!-- font-family: 'Open Sans', sans-serif; -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"/>
 <link rel="stylesheet" href="./assets/css/main.css"/>
 	
 </head>
 <body>
 
-<div data-magellan-expedition="fixed">
-	<a href="/"><i class="fa fa-home"></i> Home</a>
-	<a href="/login"><i class="fa fa-sign-in"></i> Login</a>
-	<a href="/signup"><i class="fa fa-plus"></i> Sign Up</a>
+<div data-magellan-expedition="fixed" class="nav_wrap">
+<div class="row">
+	<div class="small-12 columns">
+		<a href="/">Validate-JS</a>
+		<a href="/docs"><i class="fa fa-book"></i> Docs</a>
+		<a href="/demo"><i class="fa fa-cog"></i> Demo</a>
+	</div>
+</div>
 </div>
 
 <div data-ng-view=""></div>
@@ -29,6 +35,9 @@
 <script src="./assets/js/controllers.js"></script>
 <script src="./assets/js/foundation.min.js"></script>
 <script src="./assets/js/main.js"></script>
+<script>
+	$(document).foundation();
+</script>
 
 </body>
 </html>
